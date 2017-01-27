@@ -1,0 +1,21 @@
+{
+  "name": "react-redux-connect",
+  "version": "0.1.0",
+  "description": "Connect react components to redux store using component static props",
+  "main": "src/index.js",
+  "author": "Alex Fitiskin <alexfitiskin@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-redux": "*"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.3",
+    "react": "^15.4.2",
+    "react-redux": "^5.0.2",
+    "redux": "^3.6.0"
+  },
+  "scripts": {
+    "test": "jasmine",
+    "prepublish": "yarn run test"
+  }
+}
