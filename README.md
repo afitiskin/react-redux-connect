@@ -48,7 +48,7 @@ export class MySmartComponent {
 export default connect(MySmartComponent);
 ```
 
-Example below is the same to following:
+Example above is the same to following:
 ```javascript
 import { connect } from 'react-redux';
 import { actionOne, actionTwo }  from './actions';
